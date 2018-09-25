@@ -162,9 +162,15 @@ Asi como las funciones matemáticas, las funciones de Python pueden componerse, 
     >>> muestra_doble(max(3, 1, abs(-11), 7))
     11 11
 
-**abs(-7)** produce 7, el cual es ahora el argumento de la función **muestra_doble**. En el segundo ejemplo tenemos dos niveles de composición puesto que primero se evalúa **abs(-11)** que produce 11, y luego se evalúa **max(3, 1, 11, 7)** que da como resultado 11; finalmente la función **muestra_doble(11)** muestra el resultado.
+**abs(-7)** produce 7, el cual es ahora el argumento de la función **muestra\_doble**. En el segundo ejemplo tenemos dos niveles de composición puesto que primero se evalúa **abs(-11)** que produce 11, y luego se evalúa **max(3, 1, 11, 7)** que da como resultado 11; finalmente la función **muestra\_doble(11)** muestra el resultado.
 
-[GitHub](https://github.com/GastonIglesias/Trabajo-Especial-TIO)
+---
+#### Modo interactivo 
+El intérprete de Python estándar incluye un modo interactivo en el cual se escriben las instrucciones en una especie de intérprete de comandos: las expresiones pueden ser introducidas una a una, pudiendo verse el resultado de su evaluación inmediatamente, lo que da la posibilidad de probar porciones de código en el modo interactivo antes de integrarlo como parte de un programa. Esto resulta útil tanto para las personas que se están familiarizando con el lenguaje como para los programadores más avanzados
+
+---
+
+Repositorio [GitHub](https://github.com/GastonIglesias/Trabajo-Especial-TIO)
 
 
 
