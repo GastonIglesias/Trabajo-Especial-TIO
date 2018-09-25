@@ -4,7 +4,33 @@ Se trata de un lenguaje de programación multiparadigma, ya que soporta orientac
 
 ---
 
+### Filosofía
+Los usuarios de Python se refieren a menudo a la Filosofía Python que es bastante análoga a la filosofía de Unix. El código que sigue los principios de Python de legibilidad y transparencia se dice que es "pythonico". Contrariamente, el código opaco u ofuscado es bautizado como "no pythonico" 
+
+- Bello es mejor que feo.
+- Explícito es mejor que implícito.
+- Simple es mejor que complejo.
+- Complejo es mejor que complicado.
+- Plano es mejor que anidado.
+- Disperso es mejor que denso.
+- La legibilidad cuenta.
+- Los casos especiales no son tan especiales como para quebrantar las reglas.
+- Lo práctico gana a lo puro.
+- Los errores nunca deberían dejarse pasar silenciosamente.
+- A menos que hayan sido silenciados explícitamente.
+- Frente a la ambigüedad, rechaza la tentación de adivinar.
+- Debería haber una -y preferiblemente sólo una- manera obvia de hacerlo.
+- Aunque esa manera puede no ser obvia al principio a menos que usted sea holandés.19
+- Ahora es mejor que nunca.
+- Aunque nunca es a menudo mejor que ya mismo.
+- Si la implementación es difícil de explicar, es una mala idea.
+- Si la implementación es fácil de explicar, puede que sea una buena idea.
+- Los espacios de nombres (namespaces) son una gran idea ¡Hagamos más de esas cosas!
+
+---
+
 ### Iteraciones
+
 #### Asignación multiple
 
 Python permite realizar más de una asignación a la misma variable. Una nueva asignación hace que la variable existente se refiera a un nuevo valor y deje de referirse al viejo valor.
@@ -66,6 +92,7 @@ Incrementar una variable es tan común que Python provee una sintaxis abreviada 
     >>>
     
 #### Tablas
+
 Aunque una tabla logarítmica ya no es tan útil como antes, todavía constituye un buen ejemplo de iteración. El siguiente programa muestra una secuencia de valores en la columna izquierda y 2 elevado a cada uno de esos valores en la columna derecha:
     
     x = 1
@@ -74,6 +101,7 @@ Aunque una tabla logarítmica ya no es tan útil como antes, todavía constituye
         x += 1
 
 #### Tablas de dos dimensiones
+
 Una tabla de dos dimensiones es una tabla en la que usted elige una fila y una columna y lee el valor de la intersección. Una tabla de multiplicar es un buen ejemplo. Supongamos que desea mostrar una tabla de multiplicar para los valores del 1 al 6.
 
     i = 1
@@ -111,6 +139,7 @@ En el contexto de la programación una función es una secuencia de sentencias q
         SENTENCIAS
 
 #### La función print()
+
 En Python, para mostrar texto o variables hay que utilizar la función **print()**.
 El texto a mostrar se escribe como argumento de la función:
 
@@ -123,11 +152,13 @@ Las cadenas se pueden delimitar tanto por comillas dobles (") como por comillas 
     Hola
 
 #### Flujo de ejecución
+
 Con el fin de asegurar que una función se defina antes de su primer uso usted tiene que saber el orden en el que las sentencias se ejecutan, este orden de ejecución se denomina flujo de ejecución.
 La ejecución siempre empieza con la primera sentencia del programa. Las sentencias se ejecutan una a una, desde arriba hacia abajo.
 
 
 #### Parámetros, argumentos y la sentencia import
+
 La mayoría de las funciones requieren argumentos, los valores que controlan la manera en que la funciones trabajan. Por ejemplo, si usted quiere encontrar el valor absoluto de un número, tiene que indicar cuál es el número. Python tienen una función integrada en su biblioteca de funciones para calcular el valor absoluto:
 
     >>> abs(5)
@@ -155,6 +186,7 @@ La línea de comandos de Python nos proporciona una forma apropiada de probar nu
     3.14159 3.14159
 
 #### Composición
+
 Asi como las funciones matemáticas, las funciones de Python pueden componerse, esto es, puede usar el resultado de una función como entrada de otra.
     
     >>> muestra_doble(abs(-7))
@@ -166,6 +198,7 @@ Asi como las funciones matemáticas, las funciones de Python pueden componerse, 
 
 ---
 #### Modo interactivo 
+
 El intérprete de Python estándar incluye un modo interactivo en el cual se escriben las instrucciones en una especie de intérprete de comandos: las expresiones pueden ser introducidas una a una, pudiendo verse el resultado de su evaluación inmediatamente, lo que da la posibilidad de probar porciones de código en el modo interactivo antes de integrarlo como parte de un programa. Esto resulta útil tanto para las personas que se están familiarizando con el lenguaje como para los programadores más avanzados
 
 ---
